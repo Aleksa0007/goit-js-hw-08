@@ -1,0 +1,34 @@
+ul, ol, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-list {
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-list > .gallery-image:hover,
+.gallery-list > .gallery-image:focus {
+    transform: scale(1.1);
+}
+
+.gallery-link {
+ 
+}
+
+.gallery-image {   
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    transition: 1s;
+}
